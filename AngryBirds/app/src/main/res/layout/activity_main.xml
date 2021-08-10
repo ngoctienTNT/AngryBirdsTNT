@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="410dp"
+        android:layout_height="410dp"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="41dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/start_button"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAbout"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/about_button"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="566dp" />
+</LinearLayout>
